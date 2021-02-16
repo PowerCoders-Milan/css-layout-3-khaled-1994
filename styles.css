@@ -1,1 +1,18 @@
 /* USE CSS GRID AND FLEX HERE */
+.cont{
+    display: grid;
+    min-height: 100vh;
+    text-align: center;
+    grid-template-rows: 20vh 40vh 40vh;
+ }
+ .head{
+ background-color: salmon;
+ }
+ .main{
+    background-color:springgreen;
+    padding: 100px;
+ }
+ .footer {
+        
+          background-color:rebeccapurple;
+   }
